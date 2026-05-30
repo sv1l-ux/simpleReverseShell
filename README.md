@@ -1,7 +1,8 @@
 # simpleReverseShell
 Laboratorio para tener una reverse shell de forma simple.
 
-## Paso 1: Descarga el archivo lab-app y descomprime.
+## Paso 1: Descarga el archivo lab-app-compressed.zip y descomprime.
+Puedes descomprimir usando el comando: `unzip lab-app-compressed.zip`
 
 ## Paso 2: Ejecuta los siguientes comandos para instalar docker y plugins
 `sudo apt update`
