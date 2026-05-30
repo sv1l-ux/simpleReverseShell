@@ -1,12 +1,21 @@
 # simpleReverseShell
 Laboratorio para tener una reverse shell de forma simple.
 
+## Pasos previos: Instalar ubuntu, kali y colocarlos en una red interna, siguiendo los pasos del PDF:
+
+[Máquinas en red interna lab.pdf](https://github.com/user-attachments/files/28428915/Maquinas.en.red.interna.lab.pdf)
+
+> Nota: Es probable que las configuraciones de Firewall estén desactivadas en su ISO de Ubuntu. Puede verificar usando `sudo system status ufw`, `sudo nft list ruleset`, en tal caso, omita los pasos de desactivación de Firewall.
+
+## Posteriormente:
+
+### Nota: En el host con Ubuntu
+
 ## Paso 1: Descarga el archivo lab-app-compressed.zip y descomprime.
 Puedes descomprimir usando el comando: `unzip lab-app-compressed.zip`
 
 ## Paso 2: Ejecuta los siguientes comandos para instalar docker y plugins
 `sudo apt update`
-
 `sudo apt install docker.io docker-compose-plugin -y`
 
 ## Paso 3: Asegúrate de esta en el directorio en el que descomprimiste lo descargado y despliega la app
