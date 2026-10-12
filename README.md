@@ -24,7 +24,7 @@ Puedes descomprimir usando el comando: `unzip lab-app-compressed.zip`
 
 > Nota: Para asegurarte que esté runeando la app, puedes usar el comando: `sudo docker ps` y debe salir algo como STATUS UP x seconds.
 
-## Paso 4: Remote Code Execution
+## Paso 4: Remote Code Execution, nótese que se utiliza un input inicial, por ejemplo una IP, luego para insertar nuevos comandos, se utiliza ; y se coloca el comando.
 
 <img width="1195" height="679" alt="image" src="https://github.com/user-attachments/assets/1cfdd069-39f1-4506-a5e6-389277726619" />
 
